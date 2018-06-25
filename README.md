@@ -1,6 +1,6 @@
 ![](logo.png)
 
-# Actividad 6: Estimando curvas normales
+Unidad 3: Variables Aleatorias y Gráficos
 
 ## Importe un csv desde internet
 
