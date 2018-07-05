@@ -14,7 +14,7 @@
 
 ## Ejercicio 3: Estime el puntaje z para las 10 primeras y últimas observaciones de las variables con una menor cantidad de datos perdidos
 
-* Genere una nueva columna en la tabla de datos mediante funciones vectorizadas. Recuerde que para calcular el puntaje z de una observación se utiliza la fórmula: $z_{i}=(x_{i} - \bar{x}) / \sigma(x)$.
+* Genere una nueva columna en la tabla de datos mediante funciones vectorizadas. Recuerde que para calcular el puntaje z de una observación se utiliza la fórmula: ![alttext](eq1.gif).
 * Para ordenar los valores pueden utilzar la función `sort_values` del `DataFrame` analizado. Lean la documentación asociada al argumento `by`. Para evitar conflictos en la sobreescritura 
 * Asegúrense de eliminar las observaciones que tengan valores perdidos con `dropna`. Lean la documentación asociada al método `subset`.
 * Seleccionen las primeras y últimas 10 observaciones de la base reordenada. ¿Qué características en común se encuentran?
